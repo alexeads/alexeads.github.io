@@ -1,0 +1,11 @@
+/* My site's tables */
+table {
+    border-collapse:collapse;
+     border:2px solid green;
+    padding:5px;
+}
+
+th {
+    border:2px solid green;
+    padding:5px;
+}
