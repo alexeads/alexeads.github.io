@@ -1,0 +1,70 @@
+/* Structure */
+body {
+    background:url(Images/background.jpg);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#content {
+    background:orange;
+    width:80%;
+    margin:auto;   /* center */
+    border: 1px solid black;
+    padding:5px;
+    /* padding:10px 20x; */
+    /*padding:20px 40px 10px 5px; */
+}
+
+header, footer {
+    background:white;
+    border: 1px solid black;
+    padding:5px;
+    margin:10px 0;  /* 10 px top and bottom, 0px left and right */
+}
+
+#main-content {
+    padding:5px;
+    border:1px solid black;
+    background-color: solid ivory;
+}
+
+.giraffe-pic {
+    background-color:orange;
+    text-align: center;
+    width:50%;
+    padding: 20px 5px 10px;
+    border-radius: 5px;
+    margin:10px auto 20px;
+    color: white;
+    box-shadow: 5px 5px lightblue;
+}
+
+
+/*Navigation*/
+nav ul {
+    list-style-type: none;
+    padding-left:0;
+}
+
+#main-nav li {
+    display:inline-block;
+}
+
+#main-nav a {
+    text-decoration: none;
+    background-color:blue;
+    color:orange;
+    padding:5px;
+    border-radius:5px; /*rounded corners*/
+}
+
+#main-nav a:hover {
+    background-color: orange;
+    color:darkslateblue;
+}
+
+/* Typography */
+
+header h1, header h2, footer p {
+    text-align:center;
+}
+

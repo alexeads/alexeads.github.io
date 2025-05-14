@@ -1,0 +1,127 @@
+/* Structure*/
+body {
+    background:url(Images/background2.jpg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#content {
+    background:papayawhip;
+    width:60%;
+    margin:auto; /*centers it*/
+    border: 14px solid red;
+    padding:5px;
+}
+
+/*borders for pictures and links*/
+header, footer {
+    background:papayawhip;
+    border: 5px solid navy;
+    padding:5px;
+    margin: 10px 5px ;
+}
+
+/*border for paragraphs*/
+#main-content {
+    padding: 5px;
+    border: 5px solid navy;
+    background-color:papayawhip;
+}
+
+/*picture backgrouds*/
+.logo-container {
+    background-color:papayawhip;
+    text-align: center;
+    padding: 30px 10px 10px;
+    margin: 25px auto 15px;
+}
+
+/*pic borders*/
+.logo-container img {
+    width: 200px; /* adjust size as needed */
+    height: auto;
+    border: 3px solid navy;
+    border-radius: 10px;
+}
+
+/*width between pics*/
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 85px; 
+    margin: 10px 0;
+}
+
+/*navigation*/
+nav ul {
+    list-style-type:none;
+    padding-left:0;
+}
+
+#main-nav li {
+    display:inline-block;
+}
+
+#main-nav a {
+    text-decoration:none;
+    background-color: navy;
+    color:papayawhip;
+    padding:7px;
+    border-radius:7px;
+}
+
+#main-nav a:hover {
+    background-color: papayawhip;
+    color: navy;
+} 
+
+/* typography */
+header h1, header h2, footer p {
+    text-align:center;
+}
+
+/*table */
+table {
+    border-collapse: collapse;
+    margin:0 auto; 
+}
+
+th {
+    background-color: papayawhip;
+}
+
+td, th {
+    border:1px solid papayawhip;
+    background-color: papayawhip;
+    padding:5px;
+}
+
+h3 {
+    background-color: papayawhip;
+    color: black;
+    border: 2px solid papayawhip;
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+       
+}
+
+/*to center my table*/
+.table-section {
+    text-align: center; 
+    margin-top: 30px;
+}
+
+.table-section h3 {
+    display: inline-block;      
+    background-color: papayawhip;
+    color: black;
+    border: 2px solid papayawhip;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.table-section table {
+    margin: 0 auto;              
+    border-collapse: collapse;
+}
