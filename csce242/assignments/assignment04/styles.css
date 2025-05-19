@@ -1,0 +1,305 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    background-color:whitesmoke;
+}
+
+header {
+    background-color: whitesmoke;
+    color:whitesmoke;
+    text-align: center;
+    padding:30px;
+}
+
+nav {
+    display:flex;
+    justify-content: space-around;
+    background-color: red;
+    color: whitesmoke;
+    border: 10px;
+    border: bottom 10px;;
+    border-bottom: whitesmoke;
+}
+
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    border-left: 1px solid whitesmoke;
+    border-bottom: 1px whitesmoke;
+}
+
+nav a:first-child {
+    border-left:none;
+}
+
+.section-text {
+    max-width: 600px;
+}
+
+.main-section {
+    gap: 35px;                    /* Space between image and text */
+    padding: 20px;
+}
+
+.main-area {
+    border-bottom: 230px solid cyan;
+}
+
+.main-section:nth-child(even) {
+    background-color: red;
+    color: white;
+}
+
+.main-section:nth-child(odd) {
+    background-color: whitesmoke;
+    color: red;
+    border-bottom: cyan;
+}
+
+.main-section img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#tiles div {
+    background:red;
+}
+
+aside {
+    background: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+    color: red;
+}
+
+aside {
+    background: cyan;
+    padding: 10px;
+    border-radius: 15px;
+    color: red;
+    border-top: 8px solid red; 
+}
+
+aside ul {
+    border-radius: 5px;     
+    padding: 40px;            
+    background-color: whitesmoke;  
+    color:red;
+}
+
+.footer-grid {
+    display: flex;
+    flex-wrap: wrap;  
+    width: 100%;
+}
+
+.footer-col { 
+    box-sizing: border-box;  
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul img {
+    width: 100%; 
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+.section-text {
+    max-width: 600px;
+}
+
+footer {
+    background-color: red;
+    padding: 10px;
+}
+
+.footer-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col h4 {
+    background-color: whitesmoke;
+    color: red;
+    margin: 0;
+    padding: 10px;
+}
+
+.footer-col ul {
+    margin: 0;
+    padding: 10px;
+    background-color: papayawhip;
+    color: red;
+}
+
+.footer-col ul li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+
+#content {
+
+}
+
+header, footer, .main-area {
+       padding: 5px;
+       margin:10px 0px;
+       background: red;
+       border-radius: 5px;
+}
+
+#side-navigation {
+    background: whitesmoke;
+    margin:10px 10px;
+    color:red;
+    border-radius:5px;
+}
+
+aside {
+    background:whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+    color:red;
+}
+
+.pic-area img {
+    display: block;
+    margin:auto
+}
+
+footer {
+    display: flex;
+    justify-content: space-between; 
+    background-color: red; 
+    padding: 20px;
+    color: #fff;
+    width:100%;
+}
+
+#side-navigation {
+    margin-right: 40px; 
+    width:100%;
+    border: 2px solid red;
+}
+
+.footer-grid {
+    display: flex; 
+    width: 100%;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+h4 {
+    margin-bottom: 10px; 
+}
+
+
+#gallery section {
+    background-color: green;
+    color: papayawhip;
+    border-radius: 5px;
+    padding:5px;
+}
+
+img {
+    max: width 100%;
+}
+
+/* Navigation */
+
+/* Typography */
+
+h1, h2, footer {
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  
+
+}
+
+/* Landscape Tablet */
+@media screen and (min-width: 768px) {
+   header, footer, .main-area, .main-section, #gallery-nav, #main-nav {
+    width: 85%;
+    margin:10px auto;
+   }
+   
+   /* column*/
+.columns {
+    display:flex;
+}
+
+.pic-area {
+    margin:0 10px 10px;
+}
+
+#gallary {
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+#gallary section {
+    max-width:20%;
+    
+}
+
+#tiles, #gallery {
+    flex-wrap:wrap;
+}
+
+.one {
+    flex:1;
+}
+
+.two {
+    flex:2
+}
+
+.three {
+    flex:3;
+}
+
+.four {
+    flex:4;
+}
+
+}
+
+
+/* Labtop / Desktop */
+@media screen and (min-width: 992px) {
+   
+    header, footer, .main-area, .main-section, #main-nav, #gallery-nav {
+    width: 70%;
+   }
+
+   #tiles div {
+    width:40%;
+   }
+
+   #gallery div {
+    width:30%;
+   }
+
+}
+
+/* Extra Large Devices */
+@media screen and (min-width: 1300px) {
+   
+
+}
