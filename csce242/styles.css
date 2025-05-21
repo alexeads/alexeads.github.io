@@ -56,7 +56,25 @@ a:hover {
     background:navy;
     border-radius: 7px;
     color:papayawhip;
+    padding: 10px; 
+}
+
+.proj-area {
+    background: navy;
+    border-radius: 7px;
+    color: papayawhip;
     padding: 10px;
+    text-align: center;
+}
+
+.proj-area img {
+    display: block;
+    margin: auto;
+}
+
+.columns {
+  display: flex;       /* or display: grid */
+  gap: 1rem;           /* adjust the spacing here (e.g. 0.5rem for tiny) */
 }
 
 /* Navigation */
