@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: yellow;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 32px;
+    color: darkblue;
+}
+
+h2 {
+    font-size: 24px;
+    color: pink;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+    border: 3px solid darkblue;
+    border-radius: 10px;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background:darkblue;
+    color: yellow;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+.credit {
+    margin-top: 20px;
+    color: #888;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: darkblue;
+    border: 2px solid yellow;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    padding: 20px;
+    z-index: 1000;
+    text-align: center;
+    border-radius: 12px;
+    max-width: 90%;
+    max-height: 90%;
+    overflow: auto;
+    display: none;
+}
+
+.popup img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.popup h2 {
+    color: yellow;
+    margin-bottom: 10px;
+}
+
+#close {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #444;
+}
+
+/* Utility class to toggle visibility */
+.hidden {
+    display: none;
+}
