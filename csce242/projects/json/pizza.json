@@ -5,7 +5,7 @@
     "size": ["18\"", "12\""],
     "price": ["$18", "$14"],
     "toppings": ["Cheese", "Tomato Sauce"],
-    "img_name": "../images/plain.jpg"
+    "img_name": "images/plain.jpg"
   },
   {
     "_id": 2,
@@ -13,7 +13,7 @@
     "size": ["18\"", "12\""],
     "price": ["$18", "$14"],
     "toppings": ["Pepperoni"],
-    "img_name": "../images/pepperoni.jpg"
+    "img_name": "images/pepperoni.jpg"
   },
   {
     "_id": 3,
